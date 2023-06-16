@@ -1,0 +1,31 @@
+.cards{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0px;
+}
+.card{
+    border: none;
+}
+.card img{
+    height: 200px;
+}
+.card-title{
+    font-size: 10px;
+    font-weight: 600;
+    color: gray !important;
+    cursor: pointer;
+}
+.card-title a{
+    text-decoration: none;
+    color: gray !important; 
+}
+.card-subtitle{
+    font-size: 13px ;
+    font-weight: 300;
+    color: gray !important;
+}
+.card-text{
+    font-size: 13px ;
+    font-weight: 300;
+    color: gray !important;
+}
